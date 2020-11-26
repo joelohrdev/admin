@@ -1,39 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <expand />
+    <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7372162c-cea3-4752-9151-a27f744c5ee9" name="Default Changelist" comment="Livewire Installed">
-      <change beforePath="$PROJECT_DIR$/.idea/admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/nav-link.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/nav-link.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/navigation.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,6 +145,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -187,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606314665699</updated>
       <workItem from="1606314667139" duration="10256000" />
-      <workItem from="1606329724542" duration="721000" />
+      <workItem from="1606329724542" duration="2515000" />
+      <workItem from="1606332273239" duration="2385000" />
     </task>
     <task id="LOCAL-00001" summary="Livewire Installed">
       <created>1606315894170</created>
@@ -196,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606315894170</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Setup sidebar and main content areas">
+      <created>1606330487782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606330487782</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,7 +217,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Livewire Installed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Livewire Installed" />
+    <MESSAGE value="Setup sidebar and main content areas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setup sidebar and main content areas" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1797" y="606" key="Github.ShareDialog" timestamp="1606315285798">
@@ -244,9 +229,13 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1689" y="326" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606315318045" />
-    <state x="1512" y="433" key="Vcs.Push.Dialog.v2" timestamp="1606315897896">
+    <state x="1421" y="345" key="SettingsEditor" timestamp="1606397674093">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606315897896" />
+    <state x="1421" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606397674093" />
+    <state x="1512" y="433" key="Vcs.Push.Dialog.v2" timestamp="1606331912102">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1512" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606331912102" />
   </component>
 </project>
