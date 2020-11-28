@@ -6,9 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7372162c-cea3-4752-9151-a27f744c5ee9" name="Default Changelist" comment="Livewire Installed">
+      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/AllPlayers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/livewire/all-players.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/player/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/nav-link.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/nav-link.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PlayerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PlayerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TeamController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Team.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/TeamFactory.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_26_132601_create_players_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_11_26_132601_create_players_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_11_26_150826_create_teams_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeders/TeamSeeder.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,12 +144,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1kmnWLHFHZ5N8H8gFZwU65sgkzw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -164,7 +177,8 @@
       <updated>1606314665699</updated>
       <workItem from="1606314667139" duration="10256000" />
       <workItem from="1606329724542" duration="2515000" />
-      <workItem from="1606332273239" duration="2385000" />
+      <workItem from="1606332273239" duration="3240000" />
+      <workItem from="1606575080142" duration="3829000" />
     </task>
     <task id="LOCAL-00001" summary="Livewire Installed">
       <created>1606315894170</created>
@@ -180,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606330487782</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created Player and Team">
+      <created>1606403413047</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606403413047</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created Player and Team for real this time.">
+      <created>1606403591294</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606403591294</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,9 +244,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Livewire Installed" />
     <MESSAGE value="Setup sidebar and main content areas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup sidebar and main content areas" />
+    <MESSAGE value="Created Player and Team" />
+    <MESSAGE value="Created Player and Team for real this time." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Player and Team for real this time." />
   </component>
   <component name="WindowStateProjectService">
     <state x="1797" y="606" key="Github.ShareDialog" timestamp="1606315285798">
@@ -229,13 +260,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1689" y="326" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606315318045" />
+    <state x="1755" y="623" key="NewPhpFileDialog" timestamp="1606577686887">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1755" y="623" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1606577686887" />
     <state x="1421" y="345" key="SettingsEditor" timestamp="1606397674093">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1421" y="345" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606397674093" />
-    <state x="1512" y="433" key="Vcs.Push.Dialog.v2" timestamp="1606331912102">
+    <state x="1512" y="433" key="Vcs.Push.Dialog.v2" timestamp="1606403596749">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1512" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606331912102" />
+    <state x="1512" y="433" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1606403596749" />
   </component>
 </project>
